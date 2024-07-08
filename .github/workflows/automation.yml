@@ -2,7 +2,7 @@ name: "automate-all-the-things"
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 jobs:
   build_and_push:
     runs-on: ubuntu-latest
